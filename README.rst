@@ -39,4 +39,4 @@ At the moment 2 extensions available:
 	1. autobr
 	2. autolink
 
-.. GitHub: https://github.com/05bit/python-mdxflavours
+.. _GitHub: https://github.com/05bit/python-mdxflavours
