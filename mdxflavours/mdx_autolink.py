@@ -43,7 +43,7 @@ import re
 import markdown
 
 reflink_re = re.compile('^\s*\[[^\[\]]+\]:.+$')
-link_re = re.compile('(\s+\(?|^)((http|ftp|https)://[-\w\#$%&~/.;:=,?@+]+)', re.IGNORECASE)
+link_re = re.compile('(\s+\(?|^)((http|ftp|https)://[-\w\#$%&~/.;:=,?!@+]+)', re.IGNORECASE)
 
 class AutoLinkPreprocessor(markdown.preprocessors.Preprocessor):
     def run(self, lines):
