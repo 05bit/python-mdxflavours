@@ -3,7 +3,7 @@
 from os.path import join, dirname
 from setuptools import setup
 
-version = 1.0
+version = 0.9
 
 LONG_DESCRIPTION = """
 Markdown extensions for basic syntax flavoring: automatically
